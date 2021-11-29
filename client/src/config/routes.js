@@ -23,7 +23,7 @@ const routes = [
     exact: false,
     routes: [
       {
-        path: "/admin",
+        path: "/",
         component: AdminHome,
         exact: true,
       },
