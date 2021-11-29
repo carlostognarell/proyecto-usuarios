@@ -28,6 +28,11 @@ const routes = [
         exact: true,
       },
       {
+        path: "/admin",
+        component: AdminHome,
+        exact: true,
+      },
+      {
         path: "/admin/login",
         component: AdminSignIn,
         exact: true,
